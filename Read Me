@@ -1,0 +1,27 @@
+NEURAL NETWORKS FOR IMAGE RECOGNITION
+
+This research project aims to create models which can achieve good results
+(identified as achieving over 50% accuracy) in a short computational time by modeling an
+Artifical Neural Network (ANN) and a Convolutional Neural Network (CNN) to verify and
+compare the capability of these systems in image recognition. These models are then
+optimised to improve the result and tackle overfitting. The dataset taken into consideration is
+the Cifar-10, pubblicly available on UCI repository
+The criteria of success has been determined by comparing the validation accuracy of the
+models. Considering that the dataset has 10 different classification instances, by randomly
+guessing there would be a 10% probability of being correct, therefore any model that
+provides an accuracy of over 10% can be considered a positive improvement. In this case, a
+simple and light model which can provide an accuracy of over 50% would be considered a
+good result.
+In scientific literature it is recognised how CNN seem to be among the best techniques for
+image recognition models. However, to achieve high or very high-performing results, these
+can be daunting in terms of time, system requirements and optimisation. This project wants
+to explore if ANN can be a valid alternative for achieving good results, which steps can be
+taken to improve the performance, and then make a comparison with a CNN model built on
+top of a similar structure.
+
+To answer the research question, this project has followed four steps:
+1) Creation of a baseline ANN
+2) Optimisation of the baseline model by adding a drop out regolarisation and tuning the
+learning rate
+3) Creating a CNN built upon the previous network
+4) Optimising the CNN model
